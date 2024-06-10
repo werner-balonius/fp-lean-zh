@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!--Next Steps-->
 
 # 下一步
@@ -23,10 +24,20 @@ This book introduces the very basics of functional programming in Lean, includin
 
 ### 学习 Lean
 >>>>>>> f7565d8 (Interlude: Tactics, Induction, and Proofs和Next Steps的翻译)
+=======
+# 下一步
+<!--
+This book introduces the very basics of functional programming in Lean, including a tiny amount of interactive theorem proving. Using dependently-typed functional languages like Lean is a deep topic, and much can be said. Depending on your interests, the following resources might be useful for learning Lean 4.
+-->
+本书介绍了 Lean 中函数式编程的基本知识，包括一些互动定理证明的内容。使用依赖类型的函数式语言（如 Lean）是一个深奥的主题，内容丰富。根据您的兴趣，以下资源可能对学习 Lean 4 有用。
+
+### 学习 Lean
+>>>>>>> fixMixSoftmaxCrossEntropyLoss
 <!--
 Lean 4 itself is described in the following resources:
 
 Theorem Proving in Lean 4 is a tutorial on writing proofs using Lean.
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 The Lean 4 Manual provides a reference for the language and its features. At the time of writing, it is still incomplete, but it describes many aspects of Lean in greater detail than this book.
@@ -75,6 +86,25 @@ Lean 4 本身在以下资源中有详细描述：
 
 ### 标准库
 >>>>>>> f7565d8 (Interlude: Tactics, Induction, and Proofs和Next Steps的翻译)
+=======
+The Lean 4 Manual provides a reference for the language and its features. At the time of writing, it is still incomplete, but it describes many aspects of Lean in greater detail than this book.
+How To Prove It With Lean is a Lean-based accompaniment to the well-regarded textbook How To Prove It that provides an introduction to writing paper-and-pencil mathematical proofs.
+Metaprogramming in Lean 4 provides an overview of Lean's extension mechanisms, from infix operators and notations to macros, custom tactics, and full-on custom embedded languages.
+Functional Programming in Lean may be interesting to readers who enjoy jokes about recursion.
+However, the best way to continue learning Lean is to start reading and writing code, consulting the documentation when you get stuck. Additionally, the Lean Zulip is an excellent place to meet other Lean users, ask for help, and help others.
+
+-->
+Lean 4 本身在以下资源中有详细描述：
+
+[Theorem Proving in Lean 4](https://lean-lang.org/theorem_proving_in_lean4/) 是一本关于使用 Lean 编写证明的教程。
+[Lean 4 Manual](https://lean-lang.org/lean4/doc/)提供了该语言及其功能的参考资料。虽然在撰写本文时它仍未完成，但它比本书更详细地描述了 Lean 的许多方面。
+[How To Prove It With Lean](https://djvelleman.github.io/HTPIwL/)是著名教材[How To Prove It](https://www.cambridge.org/highereducation/books/how-to-prove-it/6D2965D625C6836CD4A785A2C843B3DA)的 Lean 版伴随读物，介绍了如何编写纸笔数学证明。
+[Metaprogramming in Lean 4](https://github.com/arthurpaulino/lean4-metaprogramming-book)概述了 Lean 的扩展机制，从中缀运算符和符号到宏、自定义策略和完整的自定义嵌入式语言。
+[Functional Programming in Lean](https://lean-lang.org/functional_programming_in_lean/)可能对喜欢递归笑话的读者感兴趣。
+然而，继续学习 Lean 的最佳方式是开始阅读和编写代码，在遇到困难时查阅文档。此外，[Lean Zulip](https://leanprover.zulipchat.com/) 是结识其他 Lean 用户、寻求帮助和帮助他人的好地方。
+
+### 标准库
+>>>>>>> fixMixSoftmaxCrossEntropyLoss
 <!--
 Out of the box, Lean itself includes a fairly minimal library. Lean is self-hosted, and the included code is just enough to implement Lean itself. For many applications, a larger standard library is needed.
 
@@ -83,10 +113,13 @@ std4 is an in-progress standard library that includes many data structures, tact
 To use std4, the first step is to find a commit in its history that's compatible with the version of Lean 4 that you're using (that is, one in which the lean-toolchain file matches the one in your project). Then, add the following to the top level of your lakefile.lean, where COMMIT_HASH is the appropriate version:
 -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> f7565d8 (Interlude: Tactics, Induction, and Proofs和Next Steps的翻译)
+=======
+>>>>>>> fixMixSoftmaxCrossEntropyLoss
 Lean 自带的库相对较小。Lean 是自托管的，所包含的代码仅够实现 Lean 本身。对于许多应用来说，需要更大的标准库。
 
 [std4](https://github.com/leanprover/std4) 是一个正在开发中的标准库，包含许多数据结构、策略、类型类实例和函数，这些都超出了 Lean 编译器本身的范围。要使用 std4，第一步是找到与您使用的 Lean 4 版本兼容的提交记录（即其中的 lean-toolchain 文件与您的项目匹配）。然后，将以下内容添加到您的 lakefile.lean 顶层，其中 COMMIT_HASH 是适当的版本：
@@ -120,6 +153,7 @@ The Little Typer is a book for programmers who haven't formally studied logic or
 [The Little Typer](https://thelittletyper.com/)是一本为没有正式学习过逻辑或编程语言理论，但希望理解依赖类型理论核心思想的程序员准备的书。虽然上述所有资源都旨在实现尽可能的实用，但这本书通过从头开始构建基础，使用仅来自编程的概念来呈现依赖类型理论的方法。
 
 免责声明：《Functional Programming in Lean》的作者也是《The Little Typer》的作者之一。
+<<<<<<< HEAD
 
 <!--Mathematics in Lean-->
 ## Lean 中的数学
@@ -181,3 +215,11 @@ The Little Typer is a book for programmers who haven't formally studied logic or
 
 
 >>>>>>> f7565d8 (Interlude: Tactics, Induction, and Proofs和Next Steps的翻译)
+=======
+
+
+
+
+
+
+>>>>>>> fixMixSoftmaxCrossEntropyLoss
