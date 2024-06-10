@@ -63,6 +63,7 @@ Writing proofs by induction as recursive functions that use helpers such as cong
 
 
 通过递归函数编写归纳证明，使用诸如 **congrArg** 之类的辅助函数并不总是能很好地表达证明背后的意图。虽然递归函数确实具有归纳的结构，但它们应该被视为一种证明的编码。此外，Lean 的策略系统提供了许多自动构建证明的机会，这是显式编写递归函数时无法实现的。Lean 提供了一种归纳策略，可以在单个策略块中完成整个归纳证明。在幕后，Lean 构建了对应于归纳使用的递归函数。
+
 <!--
 To prove plusR_zero_left with the induction tactic, begin by writing its signature (using theorem, because this really is a proof). Then, use by induction k as the body of the definition:
 -->
@@ -75,6 +76,8 @@ To prove plusR_zero_left with the induction tactic, begin by writing its signatu
 <!--
 This book presents the process of writing proofs as if they are written in one go and submitted to Lean, which then replies with error messages that describe what remains to be done. The actual process of interacting with Lean is much more pleasant. Lean provides information about the proof as the cursor is moved through it and there are a number of interactive features that make proving easier. Please consult the documentation of your Lean development environment for more information.
 -->
+
+
 本书展现了编写证明的过程，仿佛它们是一次就写就并交付给 Lean 运行似的，接着 Lean 会报错，描述剩余任务的错误信息。实际上，与 Lean 互动的过程要愉快得多。Lean 在光标移动时提供有关证明的信息，并且有许多互动功能使证明更容易。请查阅您的 Lean 开发环境的文档以获取更多信息。
 
 <!--
